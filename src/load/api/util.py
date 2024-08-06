@@ -1,5 +1,5 @@
 from tabulate import tabulate
-
+import pandas as pd
 def tabulate_df(ds_nodash):
     year = ds_nodash[0:4]
     month = ds_nodash[4:6]
