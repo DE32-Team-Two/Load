@@ -31,7 +31,7 @@
 # Version
 - v1.0.0
   - tabulate 함수 생성
-  - tabulate 함수에서 ***Orgin DataFrame과 Pretty DataFrame** 반환
+  - tabulate 함수에서 **Orgin DataFrame과 Pretty DataFrame** 반환
 	
 
 # Member
