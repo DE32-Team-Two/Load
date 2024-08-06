@@ -6,4 +6,4 @@ def tabulate_df(ds_nodash):
     read_df = pd.read_parquet(f'~/t2/test_parquet/ordered_parquet/year={year}/month={month}')
     headers = ['movieCd', 'movieNm', 'audiCnt', 'year', 'month']
     tabulate.WIDE_CHARS_MODE = False
-    return tabulate(df_cleaned, headers, tablefmt="rst")
+    return tabulate(read_df, headers, tablefmt="rst")
